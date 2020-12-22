@@ -193,6 +193,9 @@ header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
+  text-align: center;
+  display: inline;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -206,6 +209,7 @@ header.masthead .site-heading {
 header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
+  
 }
 
 header.masthead .page-heading h1,
@@ -233,12 +237,15 @@ header.masthead .site-heading .subheading {
 
 header.masthead .post-heading h1 {
   font-size: 35px;
+  text-align: center;
+  display: inline;
 }
 
 header.masthead .post-heading .meta,
 header.masthead .post-heading .subheading {
   line-height: 1.1;
   display: block;
+  text-align: center;
 }
 
 header.masthead .post-heading .subheading {
